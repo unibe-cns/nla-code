@@ -1,0 +1,47 @@
+{
+  "layers": [
+    0,
+    40,
+    56
+  ],
+  "learning_rate_factors": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "arg_tau": 10.0,
+  "arg_dt": 1.0,
+  "arg_beta": 0.1,
+  "arg_lrate_biases": 0.001,
+  "arg_lrate_biases_I": 0.0,
+  "arg_lrate_W": 0.001,
+  "arg_lrate_B": 0.0,
+  "arg_lrate_PI": 0.0,
+  "arg_lrate_IP": 0.0,
+  "arg_w_init_params": {
+    "mean": 0,
+    "std": 0.1,
+    "clip": 0.3
+  },
+  "arg_clip_weight_deriv": false,
+  "arg_weight_deriv_clip": 0.05,
+  "arg_b_init_params": {
+    "mean": 0,
+    "std": 0.01,
+    "clip": 0.03
+  },
+  "arg_interneuron_b_scale": 1.0,
+  "use_sparse_mult": false,
+  "integration_method": "LU-based Solver",
+  "dtype": "numpy.float64",
+  "use_biases": false,
+  "only_discriminative": false,
+  "with_input_dynamics": false,
+  "network_architecture": "fully-recurrent",
+  "use_interneurons": false,
+  "dynamic_interneurons": false,
+  "activation_function": "sigmoid",
+  "check_with_profiler": false,
+  "write_tensorboard": false,
+  "rnd_seed": 2354323495
+}

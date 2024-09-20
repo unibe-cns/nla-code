@@ -1,0 +1,14 @@
+# math, learning
+numpy==1.21.2
+scikit-learn==1.0.2
+
+# visualization and plotting
+matplotlib==3.5.3
+scipy==1.5.2
+tqdm==4.62.3
+torch==1.7.1
+
+# for tensorflow code
+# tensorflow==1.12.0
+# tensorflow-gpu==1.12.0
+
